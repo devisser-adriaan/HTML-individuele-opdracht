@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>
+			Dierenlijst
+		</title>
+	</head>
+	<body>
+		<a href ="Asiel.html">
+			<img class="imgMain" src="Images/Bohemia.png" alt="Bohemia" title="Bohemia" /> 
+		</a> <br />
+		<h1>
+			Alle huidige dieren in het asiel
+		</h1> <br />
+		<p>
+			<a href ="#Cat"> Cats</a> <br />
+			<a href ="#Dog"> Dogs</a> <br />
+			<a href ="#Guinea"> Guinea pigs</a> <br />
+		</p>
+		<p>
+			<div id="Cat">
+			Katten	<br />
+			</div>
+			<table>
+				<thead>
+					<tr>
+						<th>Naam</th><th>Leeftijd</th><th>Reg. Nr.</th><th>Gereserveerd</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td> Sergeant cat</td> <td>1</td> <td>1</td> <td>JA</td>
+					</tr>
+					<tr>
+						<td> Bob de kat </td> <td>2</td> <td>12</td> <td>JA</td>
+					</tr>
+					<tr>
+						<td> Lana het luipaard </td> <td>3</td> <td>8</td> <td>JA</td>
+					</tr>
+					<tr>
+						<td> Piet de kat</td> <td>4</td> <td>2</td> <td>NEE</td>
+					</tr>
+					<tr>
+						<td> Rover de kat</td> <td>5</td> <td>1</td> <td>JA</td>
+					</tr>
+				</tbody>
+			</table>
+		</p>	<br />
+		<p>
+			<div id="Dog">
+			Honden	<br />
+			</div>
+			<table>
+				<thead>
+					<tr>
+						<th>Naam</th><th>Leeftijd</th><th>Reg. Nr.</th><th>Gereserveerd</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td> <b>Captain dog</b></td> <td>1</td> <td>1</td> <td>JA</td>
+					</tr>
+					<tr>
+						<td> <b>Bob de hond </b></td> <td>2</td> <td>12</td> <td>JA</td>
+					</tr>
+					<tr>
+						<td> <b>Lana het hondje </b></td> <td>3</td> <td>8</td> <td>JA</td>
+					</tr>
+					<tr>
+						<td> <b>Piet de puppy</b></td> <td>4</td> <td>2</td> <td>NEE</td>
+					</tr>
+					<tr>
+						<td> <b>Rover de puppy</b></td> <td>5</td> <td>1</td> <td>JA</td>
+					</tr>
+				</tbody>
+			</table>
+		</p> 	<br />
+		<p>
+			<div id="Guinea">
+			Cavia&#39;s 	<br />
+			</div>
+			<table>
+				<thead>
+					<tr>
+						<th>Naam</th><th>Leeftijd</th><th>Reg. Nr.</th><th>Gereserveerd</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td> <b>Captain guinea pig</b></td> <td>1</td> <td>1</td> <td>JA</td>
+					</tr>
+					<tr>
+						<td> <b>Bob de cavia</b> </td> <td>2</td> <td>12</td> <td>JA</td>
+					</tr>
+					<tr>
+						<td> <b>Lana het caviaarschoteltje</b> </td> <td>3</td> <td>8</td> <td>JA</td>
+					</tr>
+					<tr>
+						<td> <b>Piet de cavia</b></td> <td>4</td> <td>2</td> <td>NEE</td>
+					</tr>
+					<tr>
+						<td> <b>Rover de cavia</b></td> <td>5</td> <td>1</td> <td>JA</td>
+					</tr>
+				</tbody>
+			</table>
+		</p> 
+		<h2>
+			Voeg een dier toe
+		</h2> <br />
+		<div id="FormAdd>"
+			<form>
+				<a href="#naam">
+					<label for="naam">Naam</label>
+				</a>
+				<br />
+				<input type="text" id="naam" />
+				<br />
+				<a href="#leeftijd">
+					<label for="leeftijd">Leeftijd</label>
+				</a>
+				<br />
+				<input type="text" id="leeftijd" />
+				<br />
+				<a href="#regNr">
+					<label for="regNr">Registratie nummer</label>
+				</a>
+				<br />
+				<input type="text" id="regNr" />
+				<br />
+				<a href="#gereserveerd">
+					<label for="gereserveerd">Gereserveerd</label>
+				</a>
+				<br />
+				<input type="text" id="gereserveerd" />
+				<br />
+				<a href="#toevoegen">
+					<label for="toevoegen">Toevoegen</label>
+				</a>
+				<br />
+				<input type="submit" value="toevoegen" />
+				<br />
+				<div id ="radioButtons">
+					<input type="radio" name="species" value="Cat" checked="checked" /> Katten
+					<input type="radio" name="species" value="Hond" /> Honden
+					<input type="radio" name="species" value="Guinea" /> Cavia&#39s
+			</form>
+		</div>
+		<br />
+
+		</div>
+
+
+		</table>
+	</body>
+</html>
